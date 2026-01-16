@@ -34,9 +34,9 @@ export const SOCIALS: SocialLink[] = [
   },
   {
     platform: "LinkedIn",
-    url: "https://linkedin.com/in/tusharrathore",
+    url: "https://www.linkedin.com/in/tushar-rathore-50b9b8217/",
     icon: Linkedin,
-    label: "linkedin.com/in/tusharrathore"
+    label: "https://www.linkedin.com/in/tushar-rathore-50b9b8217/"
   },
   {
     platform: "Email",
