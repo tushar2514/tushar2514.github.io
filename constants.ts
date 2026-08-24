@@ -49,7 +49,7 @@ export const SOCIALS: SocialLink[] = [
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: "Cloud Platforms",
-    skills: ["AWS (EC2, S3, VPC, Lambda)", "RDS & DynamoDB", "CloudFormation", "IAM Security"],
+    skills: ["AWS (EC2, S3, VPC, Lambda)", "RDS & DynamoDB", "CloudFormation", "IAM Security", "Azure (VM, VMSS, ACR)"],
     icon: Cloud
   },
   {
@@ -64,7 +64,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     title: "DevOps & CI/CD",
-    skills: ["Jenkins", "GitHub Actions", "Blue/Green Deployment", "Canary Releases"],
+    skills: ["Jenkins", "GitHub Actions", "Blue/Green Deployment", "Canary Releases", "Nexus Repositories", "Harbor"],
     icon: GitBranch
   },
   {
@@ -82,10 +82,10 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 export const EXPERIENCE: ExperienceItem[] = [
   {
     id: "exp-1",
-    role: "Cloud Engineer",
-    company: "CSK Information Technology Pvt Ltd",
+    role: "DevSecOps Engineer",
+    company: "CDAC Noida",
     location: "Noida, India",
-    period: "April 2024 – Present",
+    period: "May 2026 – Present",
     description: [
       "Architected and deployed scalable AWS infrastructure using Terraform, reducing Total Cost of Ownership (TCO) by 30% through resource optimization.",
       "Implemented Kubernetes clusters for container orchestration, enabling auto-scaling capabilities that improved application performance by 40%.",
@@ -97,6 +97,21 @@ export const EXPERIENCE: ExperienceItem[] = [
   },
   {
     id: "exp-2",
+    role: "Cloud Engineer",
+    company: "CSK Information Technology Pvt Ltd",
+    location: "Noida, India",
+    period: "April 2024 – May 2026",
+    description: [
+      "Architected and deployed scalable AWS infrastructure using Terraform, reducing Total Cost of Ownership (TCO) by 30% through resource optimization.",
+      "Implemented Kubernetes clusters for container orchestration, enabling auto-scaling capabilities that improved application performance by 40%.",
+      "Executed blue/green deployment strategies across production environments, achieving 99.9% uptime for critical services.",
+      "Automated infrastructure provisioning workflows using Terraform modules, reducing deployment time from hours to minutes.",
+      "Designed CI/CD pipelines, accelerating release cycles and enabling 3x more frequent deployments.",
+      "Implemented monitoring solutions using CloudWatch and custom scripts, reducing Mean Time To Detection (MTTD) by 50%."
+    ]
+  },
+  {
+    id: "exp-3",
     role: "AWS re/Start Program Graduate",
     company: "Amazon Web Services (AWS)",
     location: "India",
